@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.caja {
+  width: 230px;
+  height: 230px;
+  background-color: rgb(66, 66, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover {
+  display: flex;
+  width: 150px;
+  height: 90px;
+  background-color: rgb(117, 196, 199);
+  box-shadow: -5px -5px 1px 1px rgb(235, 42, 106);
+  justify-content: center;
+  transition: all 0.5s;
+}
+.hover p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+.hover:hover {
+  transform: translateY(-7px);
+  box-shadow: 5px 5px 1px 1px rgb(117, 196, 199);
+  background-color: rgb(235, 42, 106);
+  color: azure;
+}

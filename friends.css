@@ -1,0 +1,12 @@
+.contenedor {
+  display: flex;
+}
+.friends {
+  width: 430px;
+  height: 700px;
+  background-image: url(./friends.jpg);
+}
+.hijo {
+  width: 100%;
+  height: auto;
+}

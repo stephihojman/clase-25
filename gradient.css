@@ -1,0 +1,22 @@
+div {
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(rgb(243, 108, 108), rgb(115, 115, 255));
+  animation-name: animacion-ejemplo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes animacion-ejemplo {
+  0% {
+    width: 150px;
+    transform: rotate(150deg);
+  
+  }
+  50% {
+    width: 500px;
+    transform: translateY(50px);
+    background: linear-gradient(rgb(84, 214, 164), rgb(245, 211, 100);
+  }
+}

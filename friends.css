@@ -12,22 +12,16 @@
   overflow: hidden;
 }
 .hijo {
+  display: flex;
+  align-items: flex-end;
   width: 100%;
-  height: auto;
+  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  text-align: justify;
-  position: relative;
-  top: 500px;
-  transition: all 0.5s;
-}
-.hijo:hover {
+  transform: translateY(500px);
+  transition: all 2s;
 }
 .friends:hover .hijo {
   background-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-500px);
-  width: 400px;
-  height: 500px;
-  display: flex;
-  align-items: flex-end;
+  transform: translateY(0px);
 }
